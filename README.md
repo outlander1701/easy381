@@ -14,3 +14,5 @@ Install devtools in the R Console:
 
 Install easy381:
   devtools::install_github("outlander1701/easy381")
+
+Load the package: library(easy381)
