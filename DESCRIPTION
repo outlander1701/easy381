@@ -1,0 +1,11 @@
+Package: easy381
+Title: Collection of Helper Functions for MATH 381 at the South Dakota School of Mines and Technology
+Version: 1.0.0.0
+Authors@R: 
+    person("Bennet", "Outland", , "bennet.Outland@protonmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8369-7565"))
+Description: The goal of this package is to add a collection of functions to make the experience of using R easier for students who are not comfortable in their programming skills. There are two types of functions in the package. First, a function that gives help on which R commands are needed to do what specific to each Quest. Second, functions that simplify/reduce the number of commands that need to be entered to get a result. This is due to students being concerened if they can memorize all of the commands, especially when some of the individual parts do not make sense to them.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
