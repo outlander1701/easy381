@@ -18,3 +18,18 @@ The goal of this package is to add a collection of functions to make the experie
 * Load the package: 
   * `library(easy381)`
   * Note: You will need to load the package everytime before use!
+
+## Basic Documentation
+`easy_help(Quest)`
+* Arg(s): Quest, a Quest identifier: E.g. 'Q1' or 'Quest2'
+  * There is also a 'general' option 
+* Returns help specific to that query
+* Note: Quest2 is still in the works (10/20/2021)
+
+`easy_pop(vector)` 
+* Arg(s): vector, dataset in vecor format i.e. c(1,1,2,3,5,8)
+* Return: necessary population statistics used in the course
+
+`easy_qq(vector)`
+* Arg(s): vector, dataset in vecor format i.e. c(1,1,2,3,5,8)
+* Return: Q-Q Plot of dataset
